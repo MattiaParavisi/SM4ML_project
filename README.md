@@ -18,23 +18,35 @@ Faster way to setup the project enviroment, same i used:
 In both cases folder structure must be:
 
 <pre>
-SM4ML_project
---------->|
---------->|notebook.ipynb
---------->|README.md
---------->|SM4ML project.zip
---------->|SM4ML_project.pdf
---------->|CatsDogs
---------->--------->|Cats
---------->--------->|Dogs
---------->|CatsDogs_resized
---------->--------->|Cats_resized
---------->--------->|Dogs_resized
---------->|NN_data
---------->--------->|train
---------->--------->|test
---------->--------->|val
---------->|scripts
---------->--------->|cnn_scripts
---------->--------->|data\_analysis\_scripts
+.
+├── notebook.ipynb
+├── README.md
+├── scripts
+│   ├── cnn_scripts
+│   │   ├── batch analysis
+│   │   │   └── batch_analysis.py
+│   │   ├── best_conv_filters_number_analysis
+│   │   │   └── best_conv_filters_number.py
+│   │   ├── best_dense_layer_analysis
+│   │   │   └── best_dense_layer_analysis.py
+│   │   ├── best_model_analysis
+│   │   │   └── best_model.py
+│   │   ├── dropout_layer_analysis
+│   │   │   └── dropout_layer_analysis.py
+│   │   ├── epochs_analysis
+│   │   │   └── epochs_analysis.py
+│   │   ├── filters_number_analysis
+│   │   │   └── filters_number_analysis.py
+│   │   ├── incr_decr_conv2d_filters_analysis
+│   │   │   └── incr_decr_conv2d_filters_analysis.py
+│   │   ├── kfold
+│   │   │   └── kfold.py
+│   │   └── overfitted_model
+│   │       └── overfitted_model.py
+│   └── data_analysis_scripts
+│       ├── data_analysis_if_download.py
+│       └── data_analysis.py
+├── SM4ML_project.pdf
+└── SM4ML project.zip
+
 </pre>
