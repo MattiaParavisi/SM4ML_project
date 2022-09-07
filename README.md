@@ -17,6 +17,7 @@ Faster way to setup the project enviroment, same i used:
 
 In both cases folder structure must be:
 
+<pre>
 SM4ML_project
 --------->|
 --------->|notebook.ipynb
@@ -36,3 +37,4 @@ SM4ML_project
 --------->|scripts
 --------->--------->|cnn_scripts
 --------->--------->|data\_analysis\_scripts
+</pre>
